@@ -1,0 +1,167 @@
+C51 COMPILER V9.01   LED_TIME                                                              07/15/2018 00:34:50 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE LED_TIME
+OBJECT MODULE PLACED IN led_time.obj
+COMPILER INVOKED BY: B:\Keil C51\C51\BIN\C51.EXE src\led_time.c BROWSE DEBUG OBJECTEXTEND PRINT(.\led_time.lst) OBJECT(l
+                    -ed_time.obj)
+
+line level    source
+
+   1          #include "reg51.h"
+   2          #include "key.h"
+   3          #include "serial_port.h"
+   4          
+   5          #define NORMAL_RUN 0
+   6          #define SET_H 1
+   7          #define SET_M 2
+   8          #define SET_S 3
+   9          
+  10          sbit LSA=P1^7;
+  11          sbit LSB=P1^6;
+  12          sbit LSC=P1^5;
+  13          // sfr AUXR = 0x8e;
+  14          
+  15          long int time_count;
+  16          int display_nums[11] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,0x7f,0x67,0x40}; // 0-9 and -
+  17          int t [8] ;
+  18          int mode;
+  19          
+  20          
+  21          void time_init(void);
+  22          void time_cal(long int,int *);
+  23          void select_led(int);  // select index of leds
+  24          void led_display(int,int);
+  25          
+  26          void select_led(int i)
+  27          {
+  28   1              switch(i)
+  29   1              {
+  30   2                  case 0:
+  31   2                      LSA = 0; LSB = 0; LSC = 0; break;
+  32   2                  case 1:
+  33   2                      LSA = 1; LSB = 0; LSC = 0; break;
+  34   2                  case 2:
+  35   2                      LSA = 0; LSB = 1; LSC = 0; break;
+  36   2                  case 3:
+  37   2                      LSA = 1; LSB = 1; LSC = 0; break;
+  38   2                  case 4:
+  39   2                      LSA = 0; LSB = 0; LSC = 1; break;
+  40   2                  case 5:
+  41   2                      LSA = 1; LSB = 0; LSC = 1; break;
+  42   2                  case 6:
+  43   2                      LSA = 0; LSB = 1; LSC = 1; break;
+  44   2                  case 7:
+  45   2                      LSA = 1; LSB = 1; LSC = 1; break;
+  46   2                  default:
+  47   2                      break;
+  48   2              }
+  49   1      }
+  50          
+  51          
+  52          void time_cal(long int n, int *a)
+  53          {
+  54   1          long int hour;
+C51 COMPILER V9.01   LED_TIME                                                              07/15/2018 00:34:50 PAGE 2   
+
+  55   1          long int min;
+  56   1          long int sec;
+  57   1          long int dpl [8];
+  58   1          int i ;
+  59   1      
+  60   1          sec = n % 60;
+  61   1          n /= 60;
+  62   1          min = n % 60;
+  63   1          n /= 60;
+  64   1          hour = n % 60;
+  65   1          dpl[1] = hour % 10;
+  66   1          hour /= 10;
+  67   1          dpl[0] = hour % 10;
+  68   1          dpl[4] = min % 10;
+  69   1          min /= 10;
+  70   1          dpl[3] = min % 10;
+  71   1          dpl[7] = sec % 10;
+  72   1          sec /= 10;
+  73   1          dpl[6] = sec % 10;
+  74   1          dpl[2] = 10;
+  75   1          dpl[5] = 10;
+  76   1      
+  77   1          for(i=0;i<=7;i++)
+  78   1          {
+  79   2              a[i] = display_nums[dpl[i]];
+  80   2          }
+  81   1      
+  82   1      }
+  83          
+  84          
+  85          void time_init(void)            //1毫秒@11.0592MHz
+  86          {
+  87   1      
+  88   1              TMOD &= 0xf0;
+  89   1              TMOD |= 0x01;
+  90   1              TH0 = 0xfc;
+  91   1              TL0 = 0x18;
+  92   1              TF0 = 0;
+  93   1              TR0 = 1;
+  94   1      
+  95   1      }
+  96          
+  97          void led_display( int display_mode,int index)
+  98          {
+  99   1          P0 = 0x00;
+ 100   1          switch(display_mode)
+ 101   1          {
+ 102   2              case NORMAL_RUN:
+ 103   2              {
+ 104   3                  select_led(index);
+ 105   3                      P0 = t[index];
+ 106   3                  }
+ 107   2      
+ 108   2              break;
+ 109   2          }
+ 110   1      
+ 111   1      
+ 112   1      
+ 113   1      }
+ 114          
+ 115          main()
+ 116          {
+C51 COMPILER V9.01   LED_TIME                                                              07/15/2018 00:34:50 PAGE 3   
+
+ 117   1          int t_count;
+ 118   1          int i = 0;
+ 119   1          mode = NORMAL_RUN;
+ 120   1          time_count = 0;
+ 121   1          time_init();
+ 122   1          P0 = 0x00;
+ 123   1          time_cal(time_count,t);
+ 124   1          init_serial_port();
+ 125   1          while(1)
+ 126   1          {
+ 127   2              if(TF0){
+ 128   3      
+ 129   3                  TH0 = 0xfc;         //设置定时初值
+ 130   3                  TL0 = 0x18;         //设置定时初值
+ 131   3                  TF0 = 0;
+ 132   3      
+ 133   3                  t_count++;
+ 134   3                  if(t_count % 1 == 0){
+ 135   4                      led_display(mode,i++);
+ 136   4                      if(i>7) i = 0;
+ 137   4                  }
+ 138   3                  if(t_count % 500 == 0){
+ 139   4                      time_cal(time_count,t);
+ 140   4                  }
+ 141   3                              if(t_count % 1000 == 0){
+ 142   4                      t_count = 0;
+ 143   4                                      time_count++;
+ 144   4                      printf("time_count is %d \r\n",time_count);
+*** WARNING C206 IN LINE 144 OF SRC\LED_TIME.C: 'printf': missing function-prototype
+*** ERROR C267 IN LINE 144 OF SRC\LED_TIME.C: 'printf': requires ANSI-style prototype
+ 145   4                              }
+ 146   3      
+ 147   3              }
+ 148   2          }
+ 149   1      }
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)

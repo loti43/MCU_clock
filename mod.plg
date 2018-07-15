@@ -1,0 +1,1140 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\MC\Mod\mod.uvproj
+Project File Date:  07/14/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(199): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(199): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(199): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+compiling led_time.c...
+SRC\LED_TIME.C(144): warning C206: 'printf': missing function-prototype
+SRC\LED_TIME.C(144): error C267: 'printf': requires ANSI-style prototype
+compiling test.c...
+compiling Timer.c...
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+compiling led_time.c...
+SRC\LED_TIME.C(144): warning C206: 'printf': missing function-prototype
+SRC\LED_TIME.C(144): error C267: 'printf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+compiling led_time.c...
+SRC\LED_TIME.C(144): warning C206: 'printf': missing function-prototype
+SRC\LED_TIME.C(144): error C267: 'printf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(200): error C141: syntax error near ':'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(202): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(202): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(206): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(208): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(209): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(209): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(212): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(212): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(215): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(215): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(218): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(218): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(221): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(221): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(224): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(224): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(228): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(230): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(231): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(231): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(231): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(234): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(234): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(237): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(237): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(240): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(240): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(243): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(243): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(246): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(246): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(250): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(252): error C172: 'case': missing enclosing switch
+SRC\LED_TIME_2.C(253): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(253): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(256): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(256): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(259): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(259): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(262): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(262): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(265): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(265): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(268): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(268): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(272): error C171: 'break': missing enclosing loop
+SRC\LED_TIME_2.C(277): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(197): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(197): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(200): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(200): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(207): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(210): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(210): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(213): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(213): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(216): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(216): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(219): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(219): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(222): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(222): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(229): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(229): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(232): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(232): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(235): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(235): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(238): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(238): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(241): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(241): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(244): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(244): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(251): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(254): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(254): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(257): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(257): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(260): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(260): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(263): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(263): error C141: syntax error near ')'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ';'
+SRC\LED_TIME_2.C(266): error C141: syntax error near '|'
+SRC\LED_TIME_2.C(266): error C141: syntax error near ')'
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2083
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2083
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2083
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_INIT?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2243
+creating hex file from "mod"...
+"mod" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2246
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TIME_CAL?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIME_INIT?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_DISPLAY?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SET_TIME?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SERIAL_PORT?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1979
+creating hex file from "mod"...
+"mod" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TIME_CAL?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIME_INIT?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_DISPLAY?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SET_TIME?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SERIAL_PORT?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1976
+creating hex file from "mod"...
+"mod" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TIME_CAL?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIME_INIT?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_DISPLAY?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SET_TIME?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SERIAL_PORT?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1976
+creating hex file from "mod"...
+"mod" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_TIME_CAL?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIME_INIT?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LED_DISPLAY?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SET_TIME?LED_TIME_2
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT_SERIAL_PORT?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2020
+creating hex file from "mod"...
+"mod" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+SRC\LED_TIME_2.C(216): error C202: 'KEY_DOW': undefined identifier
+SRC\LED_TIME_2.C(222): error C202: 'ONFIRM': undefined identifier
+compiling test.c...
+Target not created
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1991
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1991
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=1991
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2036
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2078
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2078
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+compiling key.c...
+compiling test.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2150
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2150
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2111
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling led_time_2.c...
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+SRC\KEY.C(53): error C236: '_get_key': different length of parameter lists
+Target not created
+Build target 'Target 1'
+compiling key.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SEND_DATA?SERIAL_PORT
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TIMER0INIT?TIMER
+Program Size: data=81.1 xdata=0 code=2111
+creating hex file from "mod"...
+"mod" - 0 Error(s), 2 Warning(s).

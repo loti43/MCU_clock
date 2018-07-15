@@ -1,0 +1,8 @@
+"STARTUP.obj",
+"led_time_2.obj",
+"serial_port.obj",
+"key.obj",
+"test.obj",
+"Timer.obj" 
+TO "mod" 
+RAMSIZE(256) 
