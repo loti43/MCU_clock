@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   KEY                                                                   07/15/2018 12:25:10 PAGE 1   
+C51 COMPILER V9.01   KEY                                                                   07/15/2018 14:20:18 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE KEY
@@ -9,13 +9,13 @@ line level    source
 
    1          #include "reg51.h"
    2          
-   3          #define KEY_LONG_PERIOD 50
+   3          #define KEY_LONG_PERIOD 40
    4          #define KEY_CONTINUE_PERIOD 10
    5          
-   6          #define KEY_DOWN 0X02
-   7          #define KEY_LONG 0x04
-   8          #define KEY_CONTINUE 0x08
-   9          #define KEY_UP 0x01
+   6          // #define KEY_DOWN 0X02
+   7          // #define KEY_LONG 0x04
+   8          // #define KEY_CONTINUE 0x08
+   9          // #define KEY_UP 0x01
   10          
   11          #define KEY_STATE_INIT 0
   12          #define KEY_STATE_WOBBLE 1
@@ -62,7 +62,7 @@ line level    source
   53          {
   54   1      
   55   1          temp = scan_key();
-C51 COMPILER V9.01   KEY                                                                   07/15/2018 12:25:10 PAGE 2   
+C51 COMPILER V9.01   KEY                                                                   07/15/2018 14:20:18 PAGE 2   
 
   56   1      
   57   1          switch (key_state)
@@ -88,6 +88,7 @@ line level    source
   77   3                  {
   78   4                      last_key = temp;
   79   4                      temp |= KEY_DOWN;
+*** ERROR C202 IN LINE 79 OF SRC\KEY.C: 'KEY_DOWN': undefined identifier
   80   4                      key_state = KEY_STATE_LONG;
   81   4                  }
   82   3                  else
@@ -105,6 +106,7 @@ line level    source
   94   4                      {
   95   5                          key_time_count = 0;
   96   5                          temp |= KEY_LONG;
+*** ERROR C202 IN LINE 96 OF SRC\KEY.C: 'KEY_LONG': undefined identifier
   97   5                          key_state = KEY_STATE_CONTINUE;
   98   5                      }
   99   4                  }
@@ -123,11 +125,12 @@ line level    source
  112   4                      {
  113   5                          key_time_count = 0;
  114   5                          temp |= KEY_CONTINUE;
+*** ERROR C202 IN LINE 114 OF SRC\KEY.C: 'KEY_CONTINUE': undefined identifier
+C51 COMPILER V9.01   KEY                                                                   07/15/2018 14:20:18 PAGE 3   
+
  115   5                      }
  116   4                  }
  117   3                  else
-C51 COMPILER V9.01   KEY                                                                   07/15/2018 12:25:10 PAGE 3   
-
  118   3                  {
  119   4                      key_state = KEY_STATE_RELEASE;
  120   4                  }
@@ -137,6 +140,7 @@ line level    source
  124   2              case KEY_STATE_RELEASE:
  125   2              {
  126   3                  last_key |= KEY_UP;
+*** ERROR C202 IN LINE 126 OF SRC\KEY.C: 'KEY_UP': undefined identifier
  127   3                  temp = last_key;
  128   3                  key_state = KEY_STATE_INIT;
  129   3              }
@@ -168,16 +172,4 @@ line level    source
  155          //     }
  156          // }
 
-
-MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    261    ----
-   CONSTANT SIZE    =   ----    ----
-   XDATA SIZE       =   ----    ----
-   PDATA SIZE       =   ----    ----
-   DATA SIZE        =      8    ----
-   IDATA SIZE       =   ----    ----
-   BIT SIZE         =   ----    ----
-END OF MODULE INFORMATION.
-
-
-C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  0 WARNING(S),  4 ERROR(S)

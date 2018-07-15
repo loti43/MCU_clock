@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 1   
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE LED_TIME_2
@@ -62,7 +62,7 @@ line level    source
   52   2                      LSA = 0; LSB = 1; LSC = 1; break;
   53   2                  case 7:
   54   2                      LSA = 1; LSB = 1; LSC = 1; break;
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 2   
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 2   
 
   55   2                  default:
   56   2                      break;
@@ -126,7 +126,7 @@ line level    source
  114   2              case NORMAL_RUN:
  115   2              {
  116   3                  select_led(index);
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 3   
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 3   
 
  117   3                      P0 = t[index];
  118   3              }
@@ -190,7 +190,7 @@ line level    source
  176   3                  else
  177   3                  {
  178   4                      select_led(index);
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 4   
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 4   
 
  179   4                      P0 = t[index];
  180   4                  }
@@ -211,179 +211,171 @@ line level    source
  195   1          {
  196   2              case NORMAL_RUN:
  197   2                      {
- 198   3                  if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
- 199   4                     mode = SET_HOUR;
- 200   4                  }
- 201   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
- 202   4                      mode = NORMAL_RUN;
- 203   4                  }
- 204   3                  if(reg_value == (SELECT | KEY_DOWN)){
- 205   4                     mode = SET_HOUR;
- 206   4                  }
- 207   3                  if(reg_value == (CONFIRM | KEY_DOWN)){
- 208   4                      mode = NORMAL_RUN;
- 209   4                  }
- 210   3              }
- 211   2              break;
- 212   2      
- 213   2              case SET_HOUR:{
- 214   3                  if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
- 215   4                      mode = SET_MIN;
+ 198   3      
+ 199   3                  if((reg_value == (SELECT | KEY_LONG))||(reg_value == (SELECT | KEY_DOWN))){
+ 200   4                     mode = SET_HOUR;
+ 201   4                  }
+ 202   3                  // if(reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (
+             -CONFIRM | KEY_CONTINUE)){
+ 203   3                  //     mode = NORMAL_RUN;
+ 204   3                  // }
+ 205   3              break;
+ 206   3      
+ 207   3              case SET_HOUR:{
+ 208   4                  // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
+ 209   4                  //     mode = SET_MIN;
+ 210   4                  // }
+ 211   4                  if(reg_value == (SELECT | KEY_DOWN))
+ 212   4                      mode = SET_MIN;
+ 213   4                  }
+ 214   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CO
+             -NFIRM | KEY_CONTINUE))){
+ 215   4                      mode = NORMAL_RUN;
  216   4                  }
- 217   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
- 218   4                      mode = NORMAL_RUN;
- 219   4                  }
- 220   3                  // if(reg_value == (SELECT | KEY_CONTINUE)){
- 221   3                  //     mode = SET_MIN;
- 222   3                  // }
- 223   3                  if(reg_value == (CONFIRM | KEY_CONTINUE)){
- 224   4                      mode = NORMAL_RUN;
- 225   4                  }
- 226   3                  if(reg_value == (PLUS | KEY_DOWN)){
- 227   4                      hour += 1;
+ 217   3      
+ 218   3                  if(reg_value == (PLUS | KEY_DOWN)){
+ 219   4                      hour += 1;
+ 220   4                  }
+ 221   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
+ 222   4                      hour += 1;
+ 223   4                  }
+ 224   3                  if(reg_value == (MINUS | KEY_DOWN)){
+ 225   4                      hour -= 1;
+ 226   4                      if(hour < 0)
+ 227   4                      hour += 24;
  228   4                  }
- 229   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 230   4                      hour += 1;
- 231   4                  }
- 232   3                  if(reg_value == (MINUS | KEY_DOWN)){
- 233   4                      hour -= 1;
- 234   4                      if(hour < 0)
- 235   4                      hour += 24;
- 236   4                  }
- 237   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 238   4                      hour -= 1;
- 239   4                      if(hour < 0)
- 240   4                      hour += 24;
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 5   
+ 229   3                  if(reg_value == (MINUS | KEY_CONTINUE)){
+ 230   4                      hour -= 1;
+ 231   4                      if(hour < 0)
+ 232   4                      hour += 24;
+ 233   4                  }
+ 234   3              }
+ 235   2              break;
+ 236   2      
+ 237   2              case SET_MIN:{
+ 238   3                  // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 5   
 
- 241   4                  }
- 242   3              }
- 243   2              break;
- 244   2      
- 245   2              case SET_MIN:{
- 246   3                  if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
- 247   4                      mode = SET_SEC;
- 248   4                  }
- 249   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
- 250   4                      mode = NORMAL_RUN;
- 251   4                  }
- 252   3                  // if(reg_value == (SELECT | KEY_CONTINUE)){
- 253   3                  //     mode = SET_SEC;
- 254   3                  // }
- 255   3                  if(reg_value == (CONFIRM | KEY_CONTINUE)){
- 256   4                      mode = NORMAL_RUN;
- 257   4                  }
- 258   3                  if(reg_value == (PLUS | KEY_DOWN)){
- 259   4                      min += 1;
- 260   4                  }
- 261   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 262   4                      min += 1;
+ 239   3                  //     mode = SET_SEC;
+ 240   3                  // }
+ 241   3      
+ 242   3                  if(reg_value == (SELECT | KEY_DOWN)){
+ 243   4                      mode = SET_SEC;
+ 244   4                  }
+ 245   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CO
+             -NFIRM | KEY_CONTINUE))){
+ 246   4                      mode = NORMAL_RUN;
+ 247   4                  }
+ 248   3                  if(reg_value == (PLUS | KEY_DOWN)){
+ 249   4                      min += 1;
+ 250   4                  }
+ 251   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
+ 252   4                      min += 1;
+ 253   4                  }
+ 254   3                  if(reg_value == (MINUS | KEY_DOWN)){
+ 255   4                      min -= 1;
+ 256   4                      if(min < 0)
+ 257   4                      min += 60;
+ 258   4                  }
+ 259   3                  if(reg_value == (MINUS| KEY_CONTINUE)){
+ 260   4                      min -= 1;
+ 261   4                      if(min < 0)
+ 262   4                      min += 60;
  263   4                  }
- 264   3                  if(reg_value == (MINUS | KEY_DOWN)){
- 265   4                      min -= 1;
- 266   4                      if(min < 0)
- 267   4                      min += 60;
- 268   4                  }
- 269   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 270   4                      min -= 1;
- 271   4                      if(min < 0)
- 272   4                      min += 60;
- 273   4                  }
- 274   3              }
- 275   2              break;
- 276   2      
- 277   2              case SET_SEC:{
- 278   3                  if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
- 279   4                      mode = SET_HOUR;
- 280   4                  }
- 281   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
- 282   4                      mode = NORMAL_RUN;
- 283   4                  }
- 284   3                  // if(reg_value == (SELECT | KEY_CONTINUE)){
- 285   3                  //     mode = SET_HOUR;
- 286   3                  // }
- 287   3                  if(reg_value == (CONFIRM | KEY_CONTINUE)){
- 288   4                      mode = NORMAL_RUN;
- 289   4                  }
- 290   3                  if(reg_value == (PLUS | KEY_DOWN)){
- 291   4                      sec += 1;
- 292   4                  }
- 293   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 294   4                      sec += 1;
+ 264   3              }
+ 265   2              break;
+ 266   2      
+ 267   2              case SET_SEC:{
+ 268   3                  // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
+ 269   3                  //     mode = SET_HOUR;
+ 270   3                  // }
+ 271   3      
+ 272   3                  if(reg_value == (SELECT | KEY_DOWN)){
+ 273   4                      mode = SET_HOUR;
+ 274   4                  }
+ 275   3      
+ 276   3                  if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CO
+             -NFIRM | KEY_CONTINUE))){
+ 277   4                      mode = SET_HOUR;
+ 278   4                  }
+ 279   3      
+ 280   3                  if(reg_value == (PLUS | KEY_DOWN)){
+ 281   4                      time_count += 1;
+ 282   4                  }
+ 283   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
+ 284   4                      time_count += 1;
+ 285   4                  }
+ 286   3                  if(reg_value == (MINUS | KEY_DOWN)){
+ 287   4                      time_count -= 1;
+ 288   4                      if(time_count < 0)
+ 289   4                      time_count += 60;
+ 290   4                  }
+ 291   3                  if(reg_value == (MINUS | KEY_CONTINUE)){
+ 292   4                      time_count -= 1;
+ 293   4                      if(time_count < 0)
+ 294   4                      time_count += 60;
  295   4                  }
- 296   3                  if(reg_value == (MINUS | KEY_DOWN)){
- 297   4                      sec -= 1;
- 298   4                      if(sec < 0)
- 299   4                      sec += 60;
- 300   4                  }
- 301   3                  if(reg_value == (PLUS | KEY_CONTINUE)){
- 302   4                      sec -= 1;
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 6   
+ 296   3              }
+ 297   2              break;
+ 298   2      
+C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 14:20:18 PAGE 6   
 
- 303   4                      if(sec < 0)
- 304   4                      sec += 60;
- 305   4                  }
- 306   3              }
- 307   2              break;
- 308   2      
- 309   2          default: break;
- 310   2      
- 311   2          }
- 312   1      }
- 313          
- 314          main()
- 315          {
- 316   1          int i = 0;
- 317   1          mode = NORMAL_RUN;
- 318   1          time_count = 0;
- 319   1          time_init();
- 320   1          key_init();
- 321   1          init_serial_port();
- 322   1          P0 = 0x00;
- 323   1          time_cal(t);
- 324   1      
- 325   1          while(1)
- 326   1          {
- 327   2              if(TF0){
+ 299   2          default: break;
+ 300   2      
+ 301   2          }
+ 302   1      }
+ 303          
+ 304          main()
+ 305          {
+ 306   1          int i = 0;
+ 307   1          mode = NORMAL_RUN;
+ 308   1          time_count = 0;
+ 309   1          time_init();
+ 310   1          key_init();
+ 311   1          init_serial_port();
+ 312   1          P0 = 0x00;
+ 313   1          time_cal(t);
+ 314   1      
+ 315   1          while(1)
+ 316   1          {
+ 317   2              if(TF0){
+ 318   3      
+ 319   3                  TH0 = 0xfc; //设置定时初值
+ 320   3                  TL0 = 0x21; //设置定时初值  初略测试 996每秒误差4-5 ms 改992
+ 321   3                  TF0 = 0;
+ 322   3                  t_count++;
+ 323   3      
+ 324   3                  if(t_count % 1 == 0){
+ 325   4                      led_display(mode,i++);
+ 326   4                      if(i>7) i = 0;
+ 327   4                  }
  328   3      
- 329   3                  TH0 = 0xfc; //设置定时初值
- 330   3                  TL0 = 0x21; //设置定时初值  初略测试 996每秒误差4-5 ms 改992
- 331   3                  TF0 = 0;
- 332   3                  t_count++;
- 333   3      
- 334   3                  if(t_count % 1 == 0){
- 335   4                      led_display(mode,i++);
- 336   4                      if(i>7) i = 0;
- 337   4                  }
- 338   3      
- 339   3                  if(t_count % 10 ==0){
- 340   4                      get_key(&reg_value);
- 341   4                  }
- 342   3      
- 343   3                  if(t_count % 20 ==0){
- 344   4                      set_time();
- 345   4                  }
- 346   3      
- 347   3                  if(t_count % 50 == 0){
- 348   4                      time_cal(t);
- 349   4                  }
- 350   3      
- 351   3                              if(t_count % 1000 == 0){
- 352   4                      t_count = 0;
- 353   4                                      time_count++;
- 354   4                              }
- 355   3      
- 356   3              }
- 357   2          }
- 358   1      }
+ 329   3                  if(t_count % 10 ==0){
+ 330   4                      get_key(&reg_value);
+ 331   4                  }
+ 332   3      
+ 333   3                  if(t_count % 11 ==0){
+ 334   4                      set_time();
+ 335   4                  }
+ 336   3      
+ 337   3                  if(t_count % 50 == 0){
+ 338   4                      time_cal(t);
+ 339   4                  }
+ 340   3      
+ 341   3                              if(t_count % 1000 == 0){
+ 342   4                      t_count = 0;
+ 343   4                                      time_count++;
+ 344   4                              }
+ 345   3      
+ 346   3              }
+ 347   2          }
+ 348   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   1088    ----
+   CODE SIZE        =   1001    ----
    CONSTANT SIZE    =      8    ----
    XDATA SIZE       =   ----    ----
-C51 COMPILER V9.01   LED_TIME_2                                                            07/15/2018 12:24:34 PAGE 7   
-
    PDATA SIZE       =   ----    ----
    DATA SIZE        =     48      15
    IDATA SIZE       =   ----    ----

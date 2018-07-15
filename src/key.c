@@ -1,6 +1,6 @@
 #include "reg51.h"
 
-#define KEY_LONG_PERIOD 50
+#define KEY_LONG_PERIOD 40
 #define KEY_CONTINUE_PERIOD 10
 
 #define KEY_DOWN 0X02

@@ -195,34 +195,26 @@ void set_time()
     {
         case NORMAL_RUN:
 		{
-            if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
+
+            if((reg_value == (SELECT | KEY_LONG))||(reg_value == (SELECT | KEY_DOWN))){
                mode = SET_HOUR;
             }
-            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
-                mode = NORMAL_RUN;
-            }
-            if(reg_value == (SELECT | KEY_DOWN)){
-               mode = SET_HOUR;
-            }
-            if(reg_value == (CONFIRM | KEY_DOWN)){
-                mode = NORMAL_RUN;
-            }
-        }
+            // if(reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CONFIRM | KEY_CONTINUE)){
+            //     mode = NORMAL_RUN;
+            // }
         break;
 
         case SET_HOUR:{
-            if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
-                mode = SET_MIN;
-            }
-            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
-                mode = NORMAL_RUN;
-            }
-            // if(reg_value == (SELECT | KEY_CONTINUE)){
+            // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
             //     mode = SET_MIN;
             // }
-            if(reg_value == (CONFIRM | KEY_CONTINUE)){
+            if(reg_value == (SELECT | KEY_DOWN))
+                mode = SET_MIN;
+            }
+            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CONFIRM | KEY_CONTINUE))){
                 mode = NORMAL_RUN;
             }
+
             if(reg_value == (PLUS | KEY_DOWN)){
                 hour += 1;
             }
@@ -234,7 +226,7 @@ void set_time()
                 if(hour < 0)
                 hour += 24;
             }
-            if(reg_value == (PLUS | KEY_CONTINUE)){
+            if(reg_value == (MINUS | KEY_CONTINUE)){
                 hour -= 1;
                 if(hour < 0)
                 hour += 24;
@@ -243,16 +235,14 @@ void set_time()
         break;
 
         case SET_MIN:{
-            if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
-                mode = SET_SEC;
-            }
-            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
-                mode = NORMAL_RUN;
-            }
-            // if(reg_value == (SELECT | KEY_CONTINUE)){
+            // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
             //     mode = SET_SEC;
             // }
-            if(reg_value == (CONFIRM | KEY_CONTINUE)){
+
+            if(reg_value == (SELECT | KEY_DOWN)){
+                mode = SET_SEC;
+            }
+            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CONFIRM | KEY_CONTINUE))){
                 mode = NORMAL_RUN;
             }
             if(reg_value == (PLUS | KEY_DOWN)){
@@ -266,7 +256,7 @@ void set_time()
                 if(min < 0)
                 min += 60;
             }
-            if(reg_value == (PLUS | KEY_CONTINUE)){
+            if(reg_value == (MINUS| KEY_CONTINUE)){
                 min -= 1;
                 if(min < 0)
                 min += 60;
@@ -275,33 +265,33 @@ void set_time()
         break;
 
         case SET_SEC:{
-            if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
-                mode = SET_HOUR;
-            }
-            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))){
-                mode = NORMAL_RUN;
-            }
-            // if(reg_value == (SELECT | KEY_CONTINUE)){
+            // if((reg_value == (SELECT | KEY_DOWN))||(reg_value == (SELECT | KEY_LONG))){
             //     mode = SET_HOUR;
             // }
-            if(reg_value == (CONFIRM | KEY_CONTINUE)){
-                mode = NORMAL_RUN;
+
+            if(reg_value == (SELECT | KEY_DOWN)){
+                mode = SET_HOUR;
             }
+
+            if((reg_value == (CONFIRM | KEY_DOWN))||(reg_value == (CONFIRM | KEY_LONG))||(reg_value == (CONFIRM | KEY_CONTINUE))){
+                mode = SET_HOUR;
+            }
+
             if(reg_value == (PLUS | KEY_DOWN)){
-                sec += 1;
+                time_count += 1;
             }
             if(reg_value == (PLUS | KEY_CONTINUE)){
-                sec += 1;
+                time_count += 1;
             }
             if(reg_value == (MINUS | KEY_DOWN)){
-                sec -= 1;
-                if(sec < 0)
-                sec += 60;
+                time_count -= 1;
+                if(time_count < 0)
+                time_count += 60;
             }
-            if(reg_value == (PLUS | KEY_CONTINUE)){
-                sec -= 1;
-                if(sec < 0)
-                sec += 60;
+            if(reg_value == (MINUS | KEY_CONTINUE)){
+                time_count -= 1;
+                if(time_count < 0)
+                time_count += 60;
             }
         }
         break;
@@ -340,7 +330,7 @@ main()
                 get_key(&reg_value);
             }
 
-            if(t_count % 20 ==0){
+            if(t_count % 11 ==0){
                 set_time();
             }
 
